@@ -50,6 +50,7 @@ body {
 .clock-dat {
   color: peachpuff;
   font-size: 32px;
+  font-style: italic;
 }
 .birthday-message {
   display: none;
@@ -63,4 +64,9 @@ body {
 
 .hidden {
   display: none;
+}
+@media screen and (max-width: 800px) {
+body{
+  background: #222;
+}
 }
